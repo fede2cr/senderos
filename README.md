@@ -3,6 +3,10 @@ Página web para realidad aumentada, para conocer los árboles de Parques Nacion
 
 Inicialmente vamos a presentar en el Parque Metropolitano La Sabana y en el Area de Conservación Isla del Coco, ambas en Costa Rica
 
+## Uso
+
+Visite [fede2cr.github.io/senderos](fede2cr.github.io/senderos)
+
 ## ¿Que es?
 
 Es una aplicación en realidad aumentada creada como una forma moderna para acompañar a las etiquetas de identificación de especies de árbol, la cual funciona en dos modo: dentro o fuera del Parque.
