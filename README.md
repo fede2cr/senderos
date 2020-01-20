@@ -5,7 +5,7 @@ Inicialmente vamos a presentar en el Parque Metropolitano La Sabana y en el Area
 
 ## Uso
 
-Visite [fede2cr.github.io/senderos](fede2cr.github.io/senderos)
+Visite [https://fede2cr.github.io/senderos/](https://fede2cr.github.io/senderos/)
 
 ## ¿Que es?
 
