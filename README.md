@@ -20,3 +20,13 @@ Si su dispositivo móvil se identifica que está dentro del Parque, cuando se es
 Si su dispositivo móvil se identifica que está fuera del Parque, en lugar de simplemente presentar un mensaje para que visite el Parque, le presenta al usuario una serie de **senderos virtuales**, los cuales corresponden en distancia a senderos reales en el Parque.
 
 Ahora, sin importar donde se encuentre, puede comenzar a caminar y va a observar con una distancia proporcional al sendero, modelos 3D de los árboles reales, con la misma capacidad de recibir información, imágenes 360°, animaciones de especies probables a encontrar en el sendero, sonidos de pájaros, etc.
+
+## Desarrollo
+
+La aplicación se basa fuertemente en el ejemplo de [Click Places](https://github.com/jeromeetienne/AR.js/tree/master/aframe/examples/click-places) y el [tutorial asociado](https://medium.com/chialab-open-source/build-your-location-based-augmented-reality-web-app-c2442e716564)
+
+### Objetivos
+
+- Convertir sólidos de blender a formato glTF: Esto permite exportar árboles, petroglifos, esculturas y otros elementos importantes
+- Reemplazar el API de Foursquare por una aplicación servidor de objetos
+- Realizar ortografías y modelos 3d de varios objetos en la Sabana para demostración
