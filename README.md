@@ -27,6 +27,7 @@ La aplicación se basa fuertemente en el ejemplo de [Click Places](https://githu
 
 ### Objetivos
 
-- Convertir sólidos de blender a formato glTF: Esto permite exportar árboles, petroglifos, esculturas y otros elementos importantes
+- Convertir sólidos de blender a formato glTF: Esto permite exportar árboles, petroglifos, sámaras (semillas voladoras), flores, esculturas y otros elementos naturales o culturales
 - Reemplazar el API de Foursquare por una aplicación servidor de objetos
 - Realizar ortografías y modelos 3d de varios objetos en la Sabana para demostración
+- Probar una versión submarina del sendero, con ortofotografías de corales en lugar de árboles
