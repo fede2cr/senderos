@@ -22,7 +22,9 @@
     <a-asset-item id="lagarto" src="./assets/guayabo/lagarto.gltf"></a-asset-item>
   </a-assets>
 
-  <a-entity gltf-model="#lagarto"></a-entity>
+  <a-entity gltf-model="#lagarto" position="1 1 1" scale="0.5 0.5 0.5">
+    <a-animation attribute="rotation" to="360 0 0"></a-animation>
+  </a-entity>
         
         <a-camera gps-camera rotation-reader></a-camera>
 	</a-scene>
