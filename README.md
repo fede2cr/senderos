@@ -5,7 +5,8 @@ Inicialmente vamos a presentar en el Parque Metropolitano La Sabana y en el Area
 
 ## Uso
 
-Visite [https://fede2cr.github.io/senderos/](https://fede2cr.github.io/senderos/)
+Para la prueba de concepto de Petroglifos del Monumento Arqueológico Guayabo [https://fede2cr.github.io/senderos/guayabo.html](https://fede2cr.github.io/senderos/guayabo.html)
+Para la versión en desarrollo de senderos, visite [https://fede2cr.github.io/senderos/](https://fede2cr.github.io/senderos/)
 
 ## ¿Que es?
 
@@ -27,7 +28,8 @@ La aplicación se basa fuertemente en el ejemplo de [Click Places](https://githu
 
 ### Objetivos
 
-- Convertir sólidos de blender a formato glTF: Esto permite exportar árboles, petroglifos, sámaras (semillas voladoras), flores, esculturas y otros elementos naturales o culturales
-- Reemplazar el API de Foursquare por una aplicación servidor de objetos
-- Realizar ortografías y modelos 3d de varios objetos en la Sabana para demostración
-- Probar una versión submarina del sendero, con ortofotografías de corales en lugar de árboles
+- [x] Convertir sólidos de blender a formato glTF: Esto permite exportar árboles, petroglifos, sámaras (semillas voladoras), flores, esculturas y otros elementos naturales o culturales
+- [x] Crear prueba de concepto con Petroglifos del Monumento Arqueológico de Guayabo
+- [ ] Reemplazar el API de Foursquare por una aplicación servidor de objetos
+- [ ] Realizar ortografías y modelos 3d de varios objetos en la Sabana para demostración
+- [ ] Probar una versión submarina del sendero, con ortofotografías de corales en lugar de árboles
