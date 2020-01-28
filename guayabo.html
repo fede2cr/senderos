@@ -18,9 +18,11 @@
 		embedded
         arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
 
-<a-entity gltf-model="./assets/guayabo/lagarto.gltf" position="-1 15 -3" scale="1 1 1" />
- <a-animation attribute="rotation" to="360 0 0"></a-animation>
-</a-entity>
+  <a-assets>
+    <a-asset-item id="lagarto" src="./assets/guayabo/lagarto.gltf"></a-asset-item>
+  </a-assets>
+
+  <a-entity gltf-model="#largarto"></a-entity>
         
         <a-camera gps-camera rotation-reader></a-camera>
 	</a-scene>
