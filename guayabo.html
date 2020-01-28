@@ -5,8 +5,8 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>GeoAR.js demo</title>
     <script src='https://aframe.io/releases/1.0.3/aframe.min.js'></script>
-    <script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
-    <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+    <script src="./aframe-ar.min.js"></script>
+    <script src="./aframe-extras.loaders.min.js"></script>
     <script>
         THREEx.ArToolkitContext.baseURL = 'https://raw.githack.com/jeromeetienne/ar.js/master/three.js/'
     </script>
@@ -20,6 +20,7 @@
 
 <a-entity gltf-model="./assets/guayabo/lagarto.gltf" position="-1 0.5 -3" color="#4CC3D9" rotation="0 180 0" scale="0.015 0.015 0.015" gps-entity-place="longitude: -84.095535; latitude: 9.939552;" light="type: point; intensity: 2.0" animation-mixer/>
         
+        <a-camera gps-camera rotation-reader></a-camera>
 	</a-scene>
 </body>
 
