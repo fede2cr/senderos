@@ -25,6 +25,10 @@
   <a-entity gltf-model="#lagarto" position="0 -5 -40" scale="2 2 2" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 20000">
   </a-entity>
         
+  <a-light type="directional" position="0 0 0" rotation="-90 0 0" target="#directionaltarget">
+    <a-entity id="directionaltarget" position="0 0 -1"></a-entity>
+  </a-light>
+
         <a-camera gps-camera rotation-reader></a-camera>
 	</a-scene>
 </body>
